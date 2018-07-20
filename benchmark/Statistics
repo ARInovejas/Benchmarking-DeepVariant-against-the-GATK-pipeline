@@ -1,0 +1,29 @@
+Number of Sites
+UnifiedGenotyper: 977
+HaplotypeCaller: 921
+DeepVariant: 987
+
+Column: HaplotypeCaller
+Row: UnifiedGenotyper
+	REF	ALT	HET	UNK
+REF	61116	147	106	79006
+ALT	1	76101	390	98716
+HET	0	4899	681	13289
+UNK	2	2	0	13448
+
+Column: HaplotypeCaller
+Row: DeepVariant
+	REF	ALT	HET	UNK
+REF	240	317	39	857
+ALT	1	78054	90	102889
+HET	0	2151	1004	2859
+UNK	63254	63012	0	97896
+
+Column: UnifiedGenotyper
+Row: DeepVariant
+	REF	ALT	HET	UNK
+REF	98	1461	384	7
+ALT	1	174562	11820	1
+HET	0	2940	4438	0
+UNK	151504	151503	0	16353
+
