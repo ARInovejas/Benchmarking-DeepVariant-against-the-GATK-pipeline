@@ -20,4 +20,10 @@ Note:
 All calls (UnifiedGenotyper, HaplotypeCaller, and DeepVariant, uses the interval file 'sites.intervals'
 In running DV_Main.py in BIGAS, the user must be on singularity shell and has already finished aligning the reads using Main.py.
 
-
+Benchmarking
+On 'benchmark' folder is a script benchmark.py that compares the statistics of UnifiedGenotyper, HaplotypeCaller, and DeepVariant to each other and writes the statistics into a file named 'Statistics'
+Note:
+Using Tassel5, you can provide the necessary inputs of benchmark.py
+  -CallName_vcf.txt : the table form text file version of the output vcf of CallName (UnifiedGenotyper/HaplotypeCaller/DeepVariant)
+  -CallName_site_summary.txt : the table form text file version of the site summary of CallName (UnifiedGenotyper/HaplotypeCaller/DeepVariant)
+The provided examples for Benchmarking are from MISEQ_RUN2 read pairs with the reference genome IRGSP-1.0_genome.fa.
