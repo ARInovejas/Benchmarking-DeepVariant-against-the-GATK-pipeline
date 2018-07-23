@@ -6,7 +6,6 @@ These scripts and codes are for running GATK and DeepVariant pipeline in BIGAS.
 Folder Structure:
 Reference_genome: must contain the reference genome with the extension .fa (replace script so it can work on .fasta)
 Reads: must contain the read pairs. Filename convention, read pair #1 must have 'R1_001' in the filename and read pair #2 must have 'R2_001' in the filename
-Tools: contains picard, gatk3.7 and gatk4.0.5 that is used by the scripts
 
 
 Codes and Scripts
